@@ -1,0 +1,15 @@
+ [
+  {
+    "name": "Redis",
+    "image": "redis",
+    "cpu": 1,
+    "memory": 400,
+    "essential": true,
+    "portMappings": [
+      {
+        "containerPort": 6379,
+        "hostPort": 80
+      }
+    ]
+  }
+  ]
